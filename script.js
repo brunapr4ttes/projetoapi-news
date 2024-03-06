@@ -25,7 +25,7 @@ const generateUI = (articles) => {
             <div class="news-description">
                 ${noticia.description || noticia.content || ""}
             </div>
-            <a href="${noticia.url}" target="_blank" class="view-button">Read More</a>
+            <a href="${noticia.url}" target="_blank" class="view-button">READ MORE</a>
         </div>
     `;
     container.appendChild(card);
