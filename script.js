@@ -40,6 +40,7 @@ const getNews = async () => {
   }
   const data = await response.json();
   generateUI(data.articles);
+  console.log(data)
 };
 
 

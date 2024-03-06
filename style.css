@@ -77,14 +77,16 @@ img {
 }
 
 .container {
+    border: 1px solid black '';
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat 1;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em;
 }
 
 .news-card {
+    width: 100%;
     display: grid;
     position: relative;
     grid-template-rows: auto 1fr;
