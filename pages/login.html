@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - NEWS - Site de Notícias</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+  <header class="box-home">
+    <a href="/index.html" class="home">
+        <img src="/img/Botão home.svg" alt="" class="back">
+    </a>
+  </header>
+
+  <main class="box-login">
+    <div class="login">
+
+      <div class="title">
+        <h1>NEWS <br> <span>Login</span> </h1>
+      </div>
+  
+      <form action="/pages/home.html" method="get" onsubmit="return validateLogin()">
+        <div class="box-email-password">
+          <div classs="email-password">
+            <div class="email">
+              <label for="email" id="email">Email:</label>
+              <input type="text" id="input-email" placeholder="Your Email"/>
+            </div>
+    
+            <div class="password">
+              <label for="password" id="password">Password:</label>
+              <input type="password" id="input-password" placeholder="Your Password"/>
+            </div>
+          </div>
+    
+          <div class="button">
+            <p id="login-button"><input type="submit" value="Login"></p>
+          </div>
+      </form>
+    </div>
+
+    </div>
+
+  </main>
+
+  <script src="/js/login.js"></script>
+</body>
+</html>
+
+
+
